@@ -83,10 +83,10 @@ Wir möchten herausfinden:
 
 | Name | Rolle | GitHub |
 |------|-------|--------|
-| Liam Alimonta | Datenanalyse & Dokumentation | [@IliasChoumani](https://github.com/IliasChoumani) |
+| Liam Alimonta | Datenanalyse & Dokumentation | 
 | Karim … | Datenaufbereitung & Integration | *(GitHub-Link)* |
 | Sara … | Visualisierung & Design | *(GitHub-Link)* |
-| Ilias … | Projektmanagement & Repository | *(GitHub-Link)* |
+| Ilias Choumani | Projektmanagement & Repository | *(GitHub-Link)* | [@IliasChoumani](https://github.com/IliasChoumani) |
 
 📁 **Gruppen-Repository:** [DIS08-GroupIlias-Karim-Liam-Sara](https://github.com/IliasChoumani/DIS08-GroupIlias-Karim-Liam-Sara)
 
