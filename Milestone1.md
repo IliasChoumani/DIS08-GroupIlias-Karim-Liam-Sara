@@ -47,7 +47,7 @@ Wir möchten herausfinden:
 ## ❓ 4. Forschungsfragen
 
 1. Besteht ein Zusammenhang zwischen der Bevölkerungsgröße eines Landes und seinem Erfolg bei Fußball-Weltmeisterschaften?  
-2. Haben sich diese Zusammenhänge im Zeitverlauf verändert (1930 – 2018)?  
+2. Haben sich diese Zusammenhänge im Zeitverlauf verändert (1930 – 2014)?  
 3. Gibt es Länder, deren sportlicher Erfolg im Vergleich zu ihrer Bevölkerungsgröße besonders auffällig ist?  
 
 ---
