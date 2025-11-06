@@ -85,7 +85,7 @@ Wir möchten herausfinden:
 |------|-------|--------|
 | Liam Alimonta | Datenanalyse & Dokumentation | 
 | Karim … | Datenaufbereitung & Integration | *(GitHub-Link)* |
-| Sara … | Visualisierung & Design | *(GitHub-Link)* |
+| Sara … | Visualisierung & Design | [*@thsara6](https://github.com/thsara6) |
 | Ilias Choumani | Projektmanagement & Repository | [@IliasChoumani](https://github.com/IliasChoumani) | 
 
 📁 **Gruppen-Repository:** [DIS08-GroupIlias-Karim-Liam-Sara](https://github.com/IliasChoumani/DIS08-GroupIlias-Karim-Liam-Sara)
