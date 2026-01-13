@@ -99,8 +99,6 @@ Wir möchten herausfinden:
 
 ---
 
-> **Hinweis:**  
-> Der Datensatz *World Population* wird aktuell nur zur Themenfindung eingesetzt.  
-> Für Meilenstein 2 wird ein vollständig offener Datensatz mit klarer Lizenz (CC BY 4.0) verwendet.  
+> **Hinweis:**   
 > Alle Arbeiten erfolgen gemäß den FAIR-Data-Prinzipien (R1.1: klare und zugängliche Lizenzangabe).
 
