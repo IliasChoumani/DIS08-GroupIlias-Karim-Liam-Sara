@@ -1,14 +1,14 @@
-# 🧩 DIS08 – Datenmodellierung (Wintersemester 2025/26)  
+# DIS08 – Datenmodellierung (Wintersemester 2025/26)  
 ### **Meilenstein 1 – Thema, Datensatz & Projektplanung**
 
 ---
 
-## 📘 1. Projekttitel
+## 1. Projekttitel
 **„Bevölkerung und Fußballerfolg – Analyse des Zusammenhangs zwischen nationaler Demografie und Leistungen bei FIFA-Weltmeisterschaften“**
 
 ---
 
-## 🎯 2. Motivation
+## 2. Motivation
 
 Die FIFA-Weltmeisterschaft ist eines der bedeutendsten globalen Sportereignisse.  
 Neben sportlichen Faktoren spiegeln die Turniere auch gesellschaftliche und demografische Unterschiede wider.  
@@ -21,9 +21,9 @@ Wir möchten herausfinden:
 
 ---
 
-## 🌍 3. Datensätze
+## 3. Datensätze
 
-### 🏆 **Datensatz 1 – FIFA World Cup Statistics**
+### **Datensatz 1 – FIFA World Cup Statistics**
 - **Quelle:** [Kaggle – FIFA World Cup Dataset von A. Becklas](https://www.kaggle.com/datasets/abecklas/fifa-world-cup)  
 - **Lizenz:** *CC0 – Public Domain*  
 - **Format:** CSV  
@@ -32,7 +32,7 @@ Wir möchten herausfinden:
 
 ---
 
-### 👥 **Datensatz 2 – World Population Dataset**
+### **Datensatz 2 – World Population Dataset**
 - **Quelle:** [Kaggle – World Population Dataset von S. Banerjee](https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset)  
 - **Lizenz:** Auf Kaggle ist ein Lizenzfeld vorhanden, jedoch ohne konkrete Angabe der Lizenzart.  
   [World Bank Open Data – Population (CC BY 4.0)](https://data.worldbank.org/indicator/SP.POP.TOTL).  
@@ -42,7 +42,7 @@ Wir möchten herausfinden:
 
 ---
 
-## ❓ 4. Forschungsfragen
+## 4. Forschungsfragen
 
 1. Besteht ein Zusammenhang zwischen der Bevölkerungsgröße eines Landes und seinem Erfolg bei Fußball-Weltmeisterschaften?  
 2. Haben sich diese Zusammenhänge im Zeitverlauf verändert (1930 – 2014)?  
@@ -50,7 +50,7 @@ Wir möchten herausfinden:
 
 ---
 
-## 🗺 5. Projekt-Roadmap (nach Kurszeitplan)
+## 5. Projekt-Roadmap (nach Kurszeitplan)
 
 | Phase | Zeitraum | Inhalt / Aktivitäten | Erwartetes Ergebnis |
 |:------|:----------|:---------------------|:--------------------|
@@ -64,7 +64,7 @@ Wir möchten herausfinden:
 
 ---
 
-## 🧠 6. Geplante Methoden & Werkzeuge
+## 6. Geplante Methoden & Werkzeuge
 
 - **Programmiersprache:** Python  
 - **Umgebung:** Jupyter Notebook  
@@ -77,7 +77,7 @@ Wir möchten herausfinden:
 
 ---
 
-## 👥 7. Team
+## 7. Team
 
 | Name | Rolle | GitHub |
 |------|-------|--------|
@@ -86,11 +86,11 @@ Wir möchten herausfinden:
 | Sara … | Visualisierung & Design | [*@thsara6](https://github.com/thsara6) |
 | Ilias Choumani | Projektmanagement & Repository | [@IliasChoumani](https://github.com/IliasChoumani) | 
 
-📁 **Gruppen-Repository:** [DIS08-GroupIlias-Karim-Liam-Sara](https://github.com/IliasChoumani/DIS08-GroupIlias-Karim-Liam-Sara)
+**Gruppen-Repository:** [DIS08-GroupIlias-Karim-Liam-Sara](https://github.com/IliasChoumani/DIS08-GroupIlias-Karim-Liam-Sara)
 
 ---
 
-## 📄 8. Quellen
+## 8. Quellen
 
 - Breuer, T. (2025). *DIS08 – Data Modeling (WS 2025/26)*, TH Köln – Vorlesungsfolien.  
 - Kaggle (2024). *FIFA World Cup Dataset* von A. Becklas (CC0 Public Domain).  
@@ -99,7 +99,7 @@ Wir möchten herausfinden:
 
 ---
 
-> 📝 **Hinweis:**  
+> **Hinweis:**  
 > Der Datensatz *World Population* wird aktuell nur zur Themenfindung eingesetzt.  
 > Für Meilenstein 2 wird ein vollständig offener Datensatz mit klarer Lizenz (CC BY 4.0) verwendet.  
 > Alle Arbeiten erfolgen gemäß den FAIR-Data-Prinzipien (R1.1: klare und zugängliche Lizenzangabe).
