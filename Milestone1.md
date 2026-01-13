@@ -34,9 +34,7 @@ Wir möchten herausfinden:
 
 ### 👥 **Datensatz 2 – World Population Dataset**
 - **Quelle:** [Kaggle – World Population Dataset von S. Banerjee](https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset)  
-- **Lizenz:** Auf Kaggle ist ein Lizenzfeld vorhanden (✔️), jedoch **ohne konkrete Angabe der Lizenzart**.  
-  Der Datensatz wird daher **nur vorläufig für Meilenstein 1** genutzt.  
-  Für Meilenstein 2 planen wir den Umstieg auf eine lizenzsichere Quelle, z. B.:  
+- **Lizenz:** Auf Kaggle ist ein Lizenzfeld vorhanden, jedoch ohne konkrete Angabe der Lizenzart.  
   [World Bank Open Data – Population (CC BY 4.0)](https://data.worldbank.org/indicator/SP.POP.TOTL).  
 - **Format:** CSV  
 - **Beschreibung:** Enthält demografische Informationen (Länder, Jahre, Regionen, Bevölkerungszahlen).  
