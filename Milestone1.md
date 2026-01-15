@@ -81,7 +81,7 @@ Wir möchten herausfinden:
 
 | Name | Rolle | GitHub |
 |------|-------|--------|
-| Liam Alimonta | Datenanalyse & Dokumentation | 
+| Liam Alimonta | Datenanalyse & Dokumentation | [@liam_alimonta](https://github.com/Liam-Alimonta) |
 | Ziryan Karim | Datenaufbereitung & Integration | [@zkarim2025](https://github.com/zkarim2025) | 
 | Sara Huseynova | Visualisierung & Design | [@thsara6](https://github.com/thsara6) |
 | Ilias Choumani | Projektmanagement & Repository | [@IliasChoumani](https://github.com/IliasChoumani) | 
