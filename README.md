@@ -33,7 +33,7 @@ Zentrale Bestandteile:
 - Definition einer **statistisch testbaren Hypothese**
 - Auswahl geeigneter Datensätze:
   - FIFA-Weltmeisterschaftsergebnisse
-  - Bevölkerungsdaten der Weltbank
+  - Bevölkerungsdaten der Worldbank
 - Diskussion von Datenscope, Einschränkungen und Lizenzen
 
 Dieser Meilenstein klärt, **was wir analysieren wollen und warum**.
