@@ -50,6 +50,7 @@ Zentrale Bestandteile:
 - Zuordnung der Bevölkerungsdaten zu den jeweiligen WM-Jahren
 - Definition der Beobachtungseinheit als **(Land, Jahr)**
 - Zusammenführung aller relevanten Informationen in einem Datensatz
+- Erstellen der vollständigen Data-Pipeline
 
 Das Ergebnis dieses Meilensteins ist ein **angereicherter Datensatz**, der kombiniert:
 - WM-Erfolg
@@ -106,7 +107,6 @@ Insgesamt deuten die Ergebnisse auf eine **starke statistische Assoziation** zwi
 
 Wichtige Punkte zur Interpretation:
 - Bevölkerungsgröße scheint ein relevanter Faktor zu sein, ist jedoch **keine ausreichende Erklärung** für WM-Erfolg.
-- Die Analyse ist auf den **Kontext der Weltmeisterschaften** beschränkt; Länder ohne regelmäßige Teilnahme werden nicht berücksichtigt.
 - Weitere potenziell wichtige Einflussfaktoren (z. B. wirtschaftliche Ressourcen, Fußballkultur, Infrastruktur, Talententwicklung) werden nicht modelliert.
 
 ---
