@@ -1,127 +1,126 @@
 # DIS08-GroupIlias-Karim-Liam-Sara
-Gruppen Repository für DIS08 Datenmodellierung
+Gruppen-Repository für DIS08 Datenmodellierung
 
-# Data Modeling Project – World Cup Success & Population  
-**Winter Semester 2025/26**
+# Data-Modeling-Projekt – WM-Erfolg & Bevölkerungsgröße  
+**Wintersemester 2025/26**
 
-This repository documents our **Data Modeling course project**.  
-The goal of the project is to analyze whether countries with larger populations tend to be more successful at FIFA World Cups, using transparent data processing and basic statistical methods.
+Dieses Repository dokumentiert unser **Kursprojekt im Fach Data Modeling**.  
+Ziel des Projekts ist es, zu analysieren, ob Länder mit größerer Bevölkerung tendenziell erfolgreicher bei FIFA-Weltmeisterschaften sind. Dabei verwenden wir transparente Datenaufbereitung und grundlegende statistische Methoden.
 
-The repository is structured along the **three milestones** defined in the course.
-
----
-
-## Project Overview
-
-The project follows a clear analytical pipeline:
-
-1. Definition of research questions and hypothesis  
-2. Data collection and data pipeline construction  
-3. Statistical analysis and interpretation  
-
-All steps are documented in this repository to ensure transparency and reproducibility.
+Das Repository ist entlang der **drei im Kurs definierten Meilensteine** strukturiert.
 
 ---
 
-## Milestone 1 – Research Design & Data Selection
+## Projektüberblick
 
-In **Milestone 1**, we define the conceptual foundation of the project.
+Das Projekt folgt einer klaren analytischen Pipeline:
 
-Main components:
-- Motivation of the research topic
-- Formulation of three guiding **research questions**
-- Definition of one **testable statistical hypothesis**
-- Selection of suitable datasets:
-  - FIFA World Cup results
-  - World Bank population data
-- Discussion of data scope, limitations, and licensing
+1. Definition der Forschungsfragen und der Hypothese  
+2. Datenbeschaffung und Aufbau der Datenpipeline  
+3. Statistische Analyse und Interpretation  
 
-This milestone clarifies **what we want to analyze and why**.
+Alle Schritte sind in diesem Repository dokumentiert, um Transparenz und Nachvollziehbarkeit sicherzustellen.
 
 ---
 
-## Milestone 2 – Data Collection & Data Pipeline
+## Meilenstein 1 – Forschungsdesign & Datenauswahl
 
-**Milestone 2** focuses on building a structured and transparent data pipeline.
+In **Meilenstein 1** legen wir die konzeptionelle Grundlage des Projekts fest.
 
-Main components:
-- Loading raw CSV datasets
-- Harmonizing country identifiers
-- Matching population data to the corresponding World Cup years
-- Definition of the observation unit as **(country, year)**
-- Merging all relevant information into a single dataset
+Zentrale Bestandteile:
+- Motivation des Forschungsthemas
+- Formulierung von drei leitenden **Forschungsfragen**
+- Definition einer **statistisch testbaren Hypothese**
+- Auswahl geeigneter Datensätze:
+  - FIFA-Weltmeisterschaftsergebnisse
+  - Bevölkerungsdaten der Weltbank
+- Diskussion von Datenscope, Einschränkungen und Lizenzen
 
-The result of this milestone is an **augmented dataset** that combines:
-- World Cup performance
-- Population size per country and year
-
-This dataset serves as the basis for all further analyses.
+Dieser Meilenstein klärt, **was wir analysieren wollen und warum**.
 
 ---
 
-## Milestone 3 – Analysis & Statistical Modeling
+## Meilenstein 2 – Datenbeschaffung & Datenpipeline
 
-In **Milestone 3**, we perform the statistical analysis.
+**Meilenstein 2** konzentriert sich auf den Aufbau einer strukturierten und transparenten Datenpipeline.
 
-Main components:
-- **Operationalization of variables**
-  - Success: binary indicator (podium vs. non-podium)
-  - Population: logarithmized population size (log10)
-- Group comparison between:
-  - Countries with podium finishes
-  - Countries without podium finishes
-- Application of a **Welch t-test** to account for unequal group sizes and variances
-- Calculation of an **effect size (Cohen’s d)** to assess practical relevance
-- Additional exploratory analysis using a graded success measure and correlation
+Zentrale Bestandteile:
+- Einlesen der Rohdaten aus CSV-Dateien
+- Harmonisierung von Länderkennungen
+- Zuordnung der Bevölkerungsdaten zu den jeweiligen WM-Jahren
+- Definition der Beobachtungseinheit als **(Land, Jahr)**
+- Zusammenführung aller relevanten Informationen in einem Datensatz
 
----
+Das Ergebnis dieses Meilensteins ist ein **angereicherter Datensatz**, der kombiniert:
+- WM-Erfolg
+- Bevölkerungsgröße pro Land und Jahr
 
-## Results – High-Level Summary
-
-The main numerical results of the analysis are:
-
-- **Observation counts**
-  - Podium observations: *n = 39*
-  - Non-podium observations: *n = 3003*
-
-- **Mean population size (log10 scale)**
-  - Podium countries: *≈ 7.68*
-  - Non-podium countries: *≈ 6.25*
-
-- **Group comparison (Welch t-test)**
-  - *t ≈ 22.9*
-  - *p ≈ 7.4 × 10⁻²⁸*
-
-- **Effect size**
-  - *Cohen’s d ≈ 1.22* (large effect)
-
-- **Supplementary analysis**
-  - Correlation between population size and graded success: *r ≈ 0.13* (weak positive association)
-
-Overall, the results indicate a **strong statistical association** between population size and World Cup success, while also showing that population alone explains only a limited share of overall performance.
+Dieser Datensatz bildet die Grundlage für alle weiteren Analysen.
 
 ---
 
-## Interpretation & Limitations
+## Meilenstein 3 – Analyse & Statistische Modellierung
 
-Important points for interpretation:
-- Population size appears to be a relevant factor, but **not a sufficient explanation** for World Cup success.
-- The analysis is limited to the **World Cup context**; countries without regular participation are not included.
-- Other potentially important factors (e.g. economic resources, football culture, infrastructure, talent development) are not modeled.
+In **Meilenstein 3** führen wir die statistische Analyse durch.
+
+Zentrale Bestandteile:
+- **Operationalisierung der Variablen**
+  - Erfolg: binärer Indikator (Podium vs. kein Podium)
+  - Bevölkerung: logarithmierte Bevölkerungsgröße (log10)
+- Gruppenvergleich zwischen:
+  - Ländern mit Podiumsplatzierungen
+  - Ländern ohne Podiumsplatzierungen
+- Anwendung eines **Welch-t-Tests**, um ungleiche Gruppengrößen und Varianzen zu berücksichtigen
+- Berechnung einer **Effektgröße (Cohen’s d)** zur Bewertung der praktischen Relevanz
+- Zusätzliche explorative Analyse mit abgestufter Erfolgsmetrik und Korrelation
 
 ---
 
-## Tools & Technologies
+## Ergebnisse – Zusammenfassung auf hoher Ebene
 
-The project was implemented using:
+Die wichtigsten numerischen Ergebnisse der Analyse sind:
+
+- **Anzahl der Beobachtungen**
+  - Podiumsbeobachtungen: *n = 39*
+  - Nicht-Podiumsbeobachtungen: *n = 3003*
+
+- **Durchschnittliche Bevölkerungsgröße (log10-Skala)**
+  - Podiumsländer: *≈ 7,68*
+  - Nicht-Podiumsländer: *≈ 6,25*
+
+- **Gruppenvergleich (Welch-t-Test)**
+  - *t ≈ 22,9*
+  - *p ≈ 7,4 × 10⁻²⁸*
+
+- **Effektgröße**
+  - *Cohen’s d ≈ 1,22* (großer Effekt)
+
+- **Zusatzanalyse**
+  - Korrelation zwischen Bevölkerungsgröße und abgestuftem Erfolg: *r ≈ 0,13* (schwacher positiver Zusammenhang)
+
+Insgesamt deuten die Ergebnisse auf eine **starke statistische Assoziation** zwischen Bevölkerungsgröße und WM-Erfolg hin, zeigen aber gleichzeitig, dass Bevölkerungsgröße allein nur einen begrenzten Teil der Gesamtleistung erklärt.
+
+---
+
+## Interpretation & Einschränkungen
+
+Wichtige Punkte zur Interpretation:
+- Bevölkerungsgröße scheint ein relevanter Faktor zu sein, ist jedoch **keine ausreichende Erklärung** für WM-Erfolg.
+- Die Analyse ist auf den **Kontext der Weltmeisterschaften** beschränkt; Länder ohne regelmäßige Teilnahme werden nicht berücksichtigt.
+- Weitere potenziell wichtige Einflussfaktoren (z. B. wirtschaftliche Ressourcen, Fußballkultur, Infrastruktur, Talententwicklung) werden nicht modelliert.
+
+---
+
+## Werkzeuge & Technologien
+
+Das Projekt wurde umgesetzt mit:
 - Python
 - Jupyter Notebooks
-- Git & GitHub for version control and documentation
+- Git & GitHub für Versionskontrolle und Dokumentation
 
 ---
 
-## Conclusion
+## Fazit
 
-This repository provides a complete overview of our Data Modeling project, from research design and data processing to statistical analysis and interpretation.  
-The milestone-based structure reflects the course design and supports clear communication of both methodology and results.
-
+Dieses Repository bietet einen vollständigen Überblick über unser Data-Modeling-Projekt – von Forschungsdesign und Datenaufbereitung bis hin zur statistischen Analyse und Interpretation.  
+Die meilensteinbasierte Struktur spiegelt den Kursaufbau wider und unterstützt eine klare Kommunikation von Methodik und Ergebnissen.
